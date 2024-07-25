@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">Stock Market Quiz</h1>
+        <form id="quiz-form">
+            <div id="questions-container" class="mb-4"></div>
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Submit Quiz</button>
+        </form>
+        <div id="result-container" style="display: none;">
+            <h2 class="text-center">Quiz Results</h2>
+            <p class="text-center" id="score"></p>
+            <div id="detailed-results"></div>
+            <div class="text-center">
+                <button class="btn btn-secondary mr-2" id="restart-btn">Restart Quiz</button>
+                <button class="btn btn-danger" id="exit-btn">Exit</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
